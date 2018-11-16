@@ -18,7 +18,7 @@ router.post('/zip', (req, res, next) => {
     }
     console.log(req.file);
     if (req.file) {
-      fs.writeFile('uploads/text.jpg', req.file.buffer, (err) => {
+      fs.writeFile('uploads/code.zip', req.file.buffer, (err) => {
         if (err) {
           res.send('You are a bad bad boy! ' + err);
         }
@@ -27,7 +27,6 @@ router.post('/zip', (req, res, next) => {
     } else {
       res.send('Leave me alone, lazy boy!');
     }
-
     res.send('You are a kool boy!');
   })
 });
