@@ -1,0 +1,31 @@
+{
+  "name": "auto-deploy-zip-tool",
+  "version": "1.0.0",
+  "description": "a tool for auto deploying zip package",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endaye/auto-deploy-zip-tool.git"
+  },
+  "keywords": [
+    "zip",
+    "auto",
+    "deploy",
+    "node"
+  ],
+  "author": "Yuancheng Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/endaye/auto-deploy-zip-tool/issues"
+  },
+  "homepage": "https://github.com/endaye/auto-deploy-zip-tool#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "morgan": "~1.9.0"
+  }
+}
