@@ -2,15 +2,19 @@
 
 <head>
   <title>Upload</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <h1>Please upload you Zip file</h1>
-  <form enctype="multipart/form-data" action="/upload/zip" method="post">
-    <input type="file" name="zip" accept="application/x-zip-compressed"/>
+  <form id="upload-form" enctype="multipart/form-data" action="/upload/zip" method="post">
+    <input id="file" type="file" name="zip" accept="application/x-zip-compressed" />
     <input type="submit" value="Submit" />
   </form>
+  <div id="upload-result"></div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="js/custom.js"></script>
 </body>
 
 </html>
