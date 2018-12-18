@@ -28,6 +28,10 @@ router.post('/zip', (req, res, next) => {
           return next();
         }
         res.status(200).send('You are a kool boy! The file has been saved on server! ');
+        /**
+         *  @todo run a shell cmd
+         * https://nodejs.org/api/child_process.html
+         */
         return next();
       });
     } else {
