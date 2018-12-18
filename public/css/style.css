@@ -1,8 +1,39 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  background-color: #aaaaaa;
 }
 
 a {
   color: #00B7FF;
 }
+
+#main {
+  width: 100%;
+}
+
+#upload {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#upload h3 {
+  color: #666666;
+}
+
+#input-group-label-01 {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#upload-result {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+
